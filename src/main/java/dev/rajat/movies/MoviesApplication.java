@@ -24,7 +24,8 @@ public class MoviesApplication {
 						.allowedOrigins("*")
 						.allowedMethods("*")
 						.allowedHeaders("*")
-						.allowCredentials(false).maxAge(3600);
+						.allowCredentials(false)
+						.maxAge(3600);
 			}
 		};
 	}
